@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "logos"
+version = "0.1.0"
+description = "Knowledge logging software."
+authors = ["Andrew Foote <footeandrew1@gmai.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+django = "^2.2"
+
+[tool.poetry.dev-dependencies]
+pytest = "^3.0"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
